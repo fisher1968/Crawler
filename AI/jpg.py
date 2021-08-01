@@ -17,3 +17,4 @@ cv2.imwrite(r"D:\workspace\AI\img\wenyao_gray.jpg",gray_img)
 cv2.imwrite(r"D:\workspace\AI\img\wenyao_gray.jpg",gray_img)
 cv2.imwrite(r"D:\workspace\AI\img\wenyao_resize.jpg",img_400_300)
 cv2.imwrite(r"D:\workspace\AI\img\wenyao_gray.jpg",gray_img)
+
