@@ -68,12 +68,3 @@ seq = iaa.Sequential([         #建立一个名为seq的实例，定义增强方
 images_aug = seq.augment_images(imgs)
 ia.imshow(np.hstack(images_aug))
 
-def unpickle(file):
-    
-    with open(file, 'rb') as fo:
-        dict = pickle.load(fo, encoding='bytes')
-        return dict 
-
-a=unpickle(".\cifar-10-batches-py")
-
-print(a)

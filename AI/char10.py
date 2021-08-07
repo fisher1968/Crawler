@@ -168,3 +168,4 @@ e = p[b'data']
 for i in range(100):
     filename='.\cifar-10-batches-py'+'/'+str(i)+'.jpg'
     cv2.imwrite(filename, e[i].reshape(3,32,32).transpose(1,2,0))
+
