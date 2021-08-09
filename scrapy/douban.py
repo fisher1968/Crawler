@@ -14,6 +14,7 @@ driver.maximize_window()
 # 3. 请求
 driver.get(url='https://www.douban.com/')
 
+
 # time.sleep(3)
 
 # 1. 点击密码登录
